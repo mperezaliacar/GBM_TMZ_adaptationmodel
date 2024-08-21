@@ -12,8 +12,16 @@
 %       - Results_TMZres.png: TMZ-resistant population                    %
 %                                                                         %
 %    It also returns a .mat file (results_model_simulation.mat) in the    %
-%    results forlder with the cell, species and internal variables        %
-%    values along the simulation time                                     %
+%    results folder with the cell, species and internal variables         %
+%    values along the simulation time. This values are stored in the      % 
+%    matrix YSOL, which has dimensions:                                   %
+%    [Time_points x Variables_simulated x Spheroid populations]           %
+%    The simulated variables are                                          %
+%       1. Live cells                                                     %
+%       2. Dead cells                                                     %
+%       3. TMZ concentration                                              %
+%       4. Internal variable (stress)                                     %
+%       5. Accumulated internal variable (accumulated stress)             %
 %                                                                         %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
