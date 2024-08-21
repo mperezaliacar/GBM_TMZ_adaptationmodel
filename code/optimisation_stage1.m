@@ -33,7 +33,7 @@ figname = strcat('figures/figure_optimisation_stage1_candidate',num2str(candidat
 global ind
 cd ..
 load data/expDATA
-A = DATA_paperN;
+A = expDATA;
 ind = [2 3];
 cd(path)
 

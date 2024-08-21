@@ -19,7 +19,7 @@ clc
 %% load experimental data
 cd ..
 load data/expDATA
-A = expDATA;
+A = DATA_paperN;
 ind = [2 3];
 cd code
 
@@ -170,7 +170,7 @@ cd code
 
 %% figure
 names = {'$L$','$n$','$\kappa$','$S_{th}$','$\Delta S$','$\tau_\mathrm{s}$','$\lambda$','$\gamma$'};
-titles = {'sensitive','resistant','average'};
+titles = {'Sensibles','Resistentes','Promedio'};
 colors = {[0.4940, 0.1840, 0.5560],[0.9290, 0.6940, 0.1250],[0.4660, 0.6740, 0.1880]};
 paramcolors = {[0, 0.4470, 0.7410],[0.8500, 0.3250, 0.0980],[0.4660, 0.6740, 0.1880],[0.3010, 0.7450, 0.9330],[0.6350, 0.0780, 0.1840],[0.75, 0.75, 0],[0, 0.5, 0],[0.75, 0, 0.75]};	
 

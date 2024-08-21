@@ -34,7 +34,7 @@ population_names = {'Sensitive','Resistant'};
 global ind
 cd ..
 load data/expDATA
-A = DATA_paperN;
+A = expDATA;
 ind = [2 3];
 cd(path)
 
