@@ -50,7 +50,8 @@ The repository includes the following folders:
     3. TMZ concentration
     4. Level of internal variable (stress)
     5. Level of accumulated internal variable (accumulated stress)
-  and the spheroid populations are:
+  
+    and the spheroid populations are:
     1. Control
     2. TMZ-sensitive
     3. TMZ-resistant
