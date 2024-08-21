@@ -44,13 +44,13 @@ The repository includes the following folders:
 
 ## Results
 
-- `model_simulation.m`: Once you run this script, a results file named `results_model_simulation.mat` will be created in the results folder. This script contains an array named `tsol`that contains the time points where we have obtained solutions and a matrix named `YSOL` that has dimensions [Time_points x Variables_simulated x Spheroid populations] where the simulated variables are:
+- `model_simulation.m`: Once you run this script, a results file named `results_model_simulation.mat` will be created in the results folder. This script contains an array named `tsol` that contains the time points where we have obtained solutions and a matrix named `YSOL` that has dimensions [Time_points x Variables_simulated x Spheroid populations] where the simulated variables are:
     1. Number of live cells
     2. Number of dead cells
     3. TMZ concentration
     4. Level of internal variable (stress)
     5. Level of accumulated internal variable (accumulated stress)
-and the spheroid populations are:
+  and the spheroid populations are:
     1. Control
     2. TMZ-sensitive
     3. TMZ-resistant
