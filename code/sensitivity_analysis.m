@@ -5,6 +5,9 @@
 %    This script carries out a local sensitivity analysis around the      %
 %    values specified in parameters.m                                     %
 %                                                                         %
+%    The magnitud of the perturbation of the parameters is controlled     %
+%    through parameter delta.                                             %
+%                                                                         %
 %    It returns the barplot of the sensitivity index of the parameters    %
 %    as well as a results file with the value of the indexes              %
 %                                                                         %
